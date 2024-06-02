@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+section {
+  flex: 1;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.recipe-list, .recipe-details, .add-recipe {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-sort {
+  margin-bottom: 1rem;
+}
+
+#recipe-list {
+  list-style: none;
+  padding: 0;
+}
+
+#recipe-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#recipe-list li:hover {
+  background-color: #f0f0f0;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
